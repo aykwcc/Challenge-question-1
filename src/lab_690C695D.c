@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void solution2(int X, int Y, int D) {
-    printf("%d",( Y - X + D ) / D);
+    printf("%d",( Y - X + D -1 ) / D);
 }
 
 void solution1(int X, int Y, int D)
